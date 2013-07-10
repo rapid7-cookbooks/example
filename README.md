@@ -11,6 +11,5 @@ This is a skeleton branch for developers to test on. Check out the master branch
 
 # Recipes
 
-# Author
-
-Author:: Rapid7 (erran_carey@rapid7.com)
+# Authors
+* Erran Carey (erran_carey@rapid7.com)
