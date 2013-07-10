@@ -18,7 +18,13 @@
 #
 
 include_recipe 'apache2'
+apache_site 'default'
 
 template '/var/www/index.html' do
-  variables({ :title => node[:example][:title], :body => node[:example][:body]})
+  mode 0644
+  variables({
+    :title => node[:example][:title],
+    :body => node[:example][:body]
+  })
+  notifies :restart, 'service[apache2]', :delayed
 end
