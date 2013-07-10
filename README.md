@@ -13,4 +13,4 @@ This is a skeleton branch for developers to test on. Check out the master branch
 
 # Author
 
-Author:: Rapid7 (<erran_carey@rapid7.com>)
+Author:: Rapid7 (erran_carey@rapid7.com)
