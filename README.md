@@ -8,6 +8,5 @@
 
 # Recipes
 
-# Author
-
-Author:: Rapid7 (<erran_carey@rapid7.com>)
+# Authors
+* Erran Carey (erran_carey@rapid7.com)
