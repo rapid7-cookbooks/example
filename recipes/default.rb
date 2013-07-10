@@ -16,3 +16,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+include_recipe 'apache2'
+
+template '/var/www/index.html' do
+  variables({ :title => node[:example][:title], :body => node[:example][:body]})
+end
